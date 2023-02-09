@@ -49,7 +49,7 @@ function getChar(coiled = 0) {
  * @param {string} frame 
  */
 function render(frame) {
-  let msg = chalk.bold.rgb(102, 255, 89)(frame);
+  let msg = chalk.bold.rgb(102, 255, 89).bgBlack(frame);
   log(msg);
 }
 
